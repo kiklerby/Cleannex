@@ -16,7 +16,7 @@ body{
     flex-direction: column;
     flex-grow: 0;
     flex-shrink: 0;
-    height: 10%;
+    height: 20%;
 }
 
 .menu {
@@ -72,7 +72,7 @@ body{
 @media (max-width: 650px) {
     .menu {
         display: none;
-
+        text-align: left;
     }
 
     .menu-small {
@@ -85,16 +85,18 @@ body{
         background: white;
         transform: translateX(-100%);
         background-color: #505370;
+        text-align: left;
     }
 
     .menu_small_item {
         height: 2em;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 170px;
+        justify-content: left;
+        align-items: left;
+        padding-left: 15em;
         font-size: 24px;
         color: white;
+        text-align: left;
     }
 
     .menu_small_item:first-child {
@@ -110,7 +112,7 @@ body{
         display: flex;
         z-index: 1;
         justify-content: space-around;
-        align-items: center;
+        align-items: left;
         flex-direction: column;
     }
 
@@ -119,10 +121,65 @@ body{
     }
 
     .inner p {
-        margin: 0
+        margin: 0;
     }
 }
 
+@media (max-width: 920px) {
+    .menu{
+        font-size: 18px;
+    }
+    .logo{
+        font-size: 26px;
+    }
+    
+}
+@media (max-width: 855px) {
+    .disc{
+        padding-top: 1em;
+        background-image:url(images/car.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        height: 28em;
+        z-index: 2;
+    }
+    .logo1{
+        font-family: 'iceberg', sans-serif;
+    }
+    .discs{
+        font-size: 48px;
+        font-weight: 200;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .cleanex{
+        display: flex;
+        justify-content: center;
+        justify-items:center;
+        text-align: center;
+    }
+    .four{
+        display: flex;
+        padding-top: 1.5em;
+        justify-content: space-evenly;
+    }
+    .two{
+        display: flex;
+        justify-content: center;
+        color: #3A75C4;
+        flex-direction: row;
+    }
+    .three{
+        display: flex;
+        justify-content: center;
+    }
+    .one{
+        text-align: center;
+        
+    }
+}
 
 .disc{
     padding-top: 1em;
@@ -140,6 +197,8 @@ body{
 .discs{
     font-size: 64px;
     font-weight: 200;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .cleanex{
     display: flex;
@@ -149,7 +208,7 @@ body{
 }
 .four{
     display: flex;
-    padding-top: 3em;
+    padding-top: 1.5em;
     justify-content: space-around;
 }
 .two{
@@ -163,6 +222,7 @@ body{
 }
 .one{
     text-align: center;
+    
 }
 
 
@@ -179,6 +239,8 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .dop{
     padding-top: 1em;
