@@ -137,13 +137,9 @@ body{
 @media (max-width: 855px) {
     .disc{
         padding-top: 1em;
-        background-image:url(images/car.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         color: white;
         height: 28em;
-        z-index: 2;
+
     }
     .logo1{
         font-family: 'iceberg', sans-serif;
@@ -155,12 +151,11 @@ body{
         padding-right: 20px;
     }
     .cleanex{
-        display: flex;
+        display: inline;
         justify-content: center;
-        justify-items:center;
         text-align: center;
     }
-    .four{
+    .blocks{
         display: flex;
         padding-top: 1.5em;
         justify-content: space-evenly;
@@ -175,7 +170,7 @@ body{
         display: flex;
         justify-content: center;
     }
-    .one{
+    .block{
         text-align: center;
         
     }
@@ -206,7 +201,7 @@ body{
     justify-items:center;
     text-align: center;
 }
-.four{
+.blocks{
     display: flex;
     padding-top: 1.5em;
     justify-content: space-around;
@@ -220,7 +215,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.one{
+.block{
     text-align: center;
     
 }
@@ -245,63 +240,52 @@ body{
 .dop{
     padding-top: 1em;
     color: white;
-    height: 30em;
-    z-index: 2;
     text-align: center;
-    background-color: #505370;
-}
-.dop1{
-    display: flex;
-    justify-content: center;
-    
-}
-.dop2{
-    display: flex;
-    padding-top: 2em;
-    justify-content: space-around;
-}
-.dop3{
-    background-image:url(images/kuzow.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 20%;
-    height: 16em;
-}
-.dop4{
-    background-image:url(images/kuzow2.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 20%;
-    height: 16em;
-}
-.dop5{
-    background-image:url(images/kuzow3.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 20%;
-    height: 16em;
+    background-color: #505370;    
 }
 
+.slider{
+    width: 775px;
+    height: 300px;
+    border-color: black;
+    justify-content: center;
+}
+img{
+    width: 775px;
+    height: 300px;
+}
+.bx-wrapper {
+    width: 775px;
+    border-color: black;
+    justify-content: center;
+    border-color: black;
+    left: 350px;
+}
 .price{
     padding: 2em;
 }
-button {
-    padding: 1em;
-    color: white;
-    background: #292b3b;
-    border-color: black;
-    font-size: 32px;
+.btn{
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 600;
+    cursor: pointer;
+    background: #1e2033; 
+    width: 200px;
+    height: 80px;
+    border: none;
+    color: #fff;
+    
 }
 
 .map11{
     padding-top: 1em;
     color: white;
-    height: 18em;
     text-align: center;
     background-color: #3A75C4;
+    display: flex;
+    justify-content: center;
 }
 
 #map {
